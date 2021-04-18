@@ -2,18 +2,26 @@
 <html lang="en">
 
 <head>
+  <link rel="stylesheet" href="css2.css" />
   <meta charset="UTF-8">
   <title>CV</title>
+  <style media="screen">
+    body{
+      background-color: #8DE2C4;
+    }
+  </style>
 </head>
 
-<body style="background-color: #8DE2C4;">
-  <img src="background.png" style="position: absolute; top: 20px; right: 600px;" alt="">
-  <img src="photo.jpg" height=300 width=300 align=left alt="" style="position: absolute; top: 20px; right: 1120px;">
-  <h1 style="position: absolute; top: 310px; right: 1235px;"><em>Aidar</em></h1>
-  <h1 style="position: absolute; top: 340px; right: 1200px;"><em>Zhunussov</em></h1>
-  <h3 style="position: absolute; top: 390px; right: 1160px;">Beginner in Cyber Security</h3>
-  <h6 style="position: absolute; top: 415px; left: 150px;">18 y.o.</h6>
-  <svg viewBox="0 0 100 100" style="position: absolute;">
+<body>
+  <img class=pic1 src="background.png" alt="">
+  <img class=pic2 src="photo.jpg" height=300 width=300 align=left alt="">
+  <div class="divide">
+  <h1 class=header1><em>Aidar</em></h1>
+  <h1 class=header2><em>Zhunussov</em></h1>
+  <h3 class=header3>Beginner in Cyber Security</h3>
+  <h6 class=header4>18 y.o.</h6>
+  </div>
+  <svg id=graph viewBox="0 0 100 100">
     <line x1="0.2" y1="32" x2="22.7" y2="32" stroke="black" />
     <line x1="33" y1="46.7" x2="53" y2="46.7" stroke="black" />
     <line x1="33" y1="50" x2="53" y2="50" stroke="black" />
@@ -21,11 +29,11 @@
     <line x1="33" y1="57" x2="53" y2="57" stroke="black" />
     <line x1="33" y1="46.7" x2="51" y2="46.7" stroke="yellow" />
     <line x1="33" y1="50" x2="45" y2="50" stroke="yellow" />
-    <line x1="33" y1="53.5" x2="40" y2="53.5" stroke="yellow" />
-    <line x1="33" y1="57" x2="35" y2="57" stroke="yellow" />
+    <line x1="33" y1="53.5" x2="50" y2="53.5" stroke="yellow" />
+    <line x1="33" y1="57" x2="47" y2="57" stroke="yellow" />
   </svg>
-  <h3 style="position: absolute; top: 480px; right: 1335px;"><em>Who am I</em></h3>
-  <p style="position: absolute; top: 520px; right: 1110px; font-size: 120% ">
+  <h3 class=header5><em>Who am I</em></h3>
+  <p>
     &ensp; &ensp;I am a <strong><ins>first-year<ins></strong> student of Astana <br>
     IT University. I'm studying on an <br>
     educational program of Cyber Security. <br>
@@ -33,18 +41,26 @@
     explore knowledge of cyberattacks and <br>
     drive cars.
   </p>
-  <h2 style="position: absolute; top: 50px; right: 970px;">Education</h2>
-  <ul style="position: absolute; top: 100px; right: 732px; line-height: 200%">
+  <style media="screen">
+    p{
+      position: absolute;
+      top: 520px;
+      right: 1110px;
+      font-size: 120%
+    }
+  </style>
+  <h2 class=header6>Education</h2>
+  <ul id=list1>
     <li>General secondary education (2009 – 2020 year)</li>
     <li>Higher education (Present time)</li>
   </ul>
-  <h2 style="position: absolute; top: 200px; right: 960px;">Sertificates</h2>
-  <ol style="position: absolute; top: 250px; right: 625px; line-height: 200%">
-    <li>3<sup>rd</sup> place in the International Physics Olympiad</li>
+  <h2 class=header7>Sertificates</h2>
+  <ol id=list2>
+    <li>2<sup>nd</sup> place in the International Physics Olympiad</li>
     <li>3<sup>rd</sup> place in the HealthTech & Well-being Hackathon (<mark>300.000&#8376;</mark>)</li>
     <li>Participant of the XII President's Olympiad</li>
   </ol>
-  <table style="position: absolute; top: 400px; left: 370px; line-height: 200%; font-size: 120%;" border="1">
+  <table border="1">
     <tr>
       <th>Welcome positions</th>
       <th>&ensp; &ensp;&ensp;</th>
@@ -66,32 +82,32 @@
       <td>Astana IT University</td>
     </tr>
   </table>
-  <h2 style="position: absolute; top: 600px; left: 370px;">Skills</h2>
-  <h3 style="position: absolute; top: 650px; left: 390px;">C++</h3>
-  <h3 style="position: absolute; top: 700px; left: 390px;">Java</h3>
-  <h3 style="position: absolute; top: 750px; left: 390px;">HTML</h3>
-  <h3 style="position: absolute; top: 800px; left: 390px;">CSS</h3>
-  <h2 style="position: absolute; top: 50px; right: 400px;">Contact me</h2>
-  <img src="phone.jpg" height=40 width=40 style="position: absolute; top: 120px; right: 460px; border-radius: 300px; size: 50" alt="">
-  <img src="telegram.png" height=42 width=42 style="position: absolute; top: 180px; right: 460px; border-radius: 300px; size: 50" alt="">
-  <img src="email.jpg" height=40 width=40 style="position: absolute; top: 240px; right: 460px; border-radius: 300px; size: 50" alt="">
-  <h3 style="position: absolute; top: 110px; right: 295px;">+7-(777)-659-99-00</h3>
-  <h3 style="position: absolute; top: 170px; right: 340px;"><a href="https://t.me/zhunussoff">@zhunussoff</a></h3>
-  <h3 style="position: absolute; top: 230px; right: 220px;"><a href="mailto:zhunusovaidar@gmail.com">zhunusovaidar@gmail.com</a></h3>
-  <h4 style="position: absolute; top: 320px; left: 920px; font-size: 150%; line-height: 150%;">Am I interested you?<br>
+  <h2 class=header8>Skills</h2>
+  <h3 class=header9>C++</h3>
+  <h3 class=header10>Java</h3>
+  <h3 class=header11>HTML</h3>
+  <h3 class=header12>CSS</h3>
+  <h2 class=header13>Contact me</h2>
+  <img class=pic3 src="phone.jpg" height=40 width=40 alt="">
+  <img class=pic4 src="telegram.png" height=42 width=42 alt="">
+  <img class=pic5 src="email.jpg" height=40 width=40 alt="">
+  <h3 class=header14>+7-(777)-659-99-00</h3>
+  <h3 class=header15><a href="https://t.me/zhunussoff">@zhunussoff</a></h3>
+  <h3 class=header16><a href="mailto:zhunusovaidar@gmail.com">zhunusovaidar@gmail.com</a></h3>
+  <h4 class=header17>Am I interested you?<br>
     Write your name and phone number below.<br>
     I'll call you back soon!</h4>
-  <form style="position: absolute; top: 470px; left: 920px;">
+  <form>
     <label for="name">Your name:</label><br>
     <input type="text"><br><br>
     <label for="pnumber">Your phone number:</label><br>
     <input type="text"><br><br>&ensp;&ensp;&ensp;&ensp;&ensp;
     <input type="submit" value="Send">
   </form>
-  <h5 style="position: absolute; top: 950px; left: 920px;"><del>&copy;Copyright All Rights Reserved 2021<del></h5>
-    <br><br>
-    <hr size=575 width=560 align=right style="border-width: 10px;">
-    <address style="position: absolute; top: 660px; left: 920px; line-height: 150%;">
+  <h5 class=header18><span class="fcolor"><del>&copy;Copyright All Rights Reserved 2021<del></span></h5>
+  <br><br>
+  <hr size=575 width=560 align=right style="border-width: 10px;">
+  <address>
     If you see any bugs, please <a href="mailto:zhunusovaidar@gmail.com">write me</a>.<br>
     ИП Bastyq<br>
     Pavlodar city,<br>
@@ -99,8 +115,9 @@
     Kazakhstan.
   </address>
   <audio autoplay>
-  <source src="music.mp3">
+    <source src="music.mp3">
   </audio>
+  <img class=pic6 src="favicon-192x192.png" alt="">
 </body>
 
 </html>
