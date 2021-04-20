@@ -6,8 +6,10 @@
 
 .pic2 {
   position: fixed;
-  top: 20px;
-  right: 1120px;
+  top: 10px;
+  right: 1105px;
+  margin: 10px;
+  border: 5px solid black;
 }
 
 .header1 {
@@ -34,7 +36,6 @@
   left: 150px;
 }
 
-
 #graph {
   position: absolute;
 }
@@ -50,6 +51,7 @@
   top: 50px;
   right: 970px;
 }
+
 #list1 {
   position: absolute;
   top: 100px;
@@ -184,10 +186,11 @@ address {
   line-height: 150%;
 }
 
-.fcolor{
+.fcolor {
   color: black;
 }
-.pic6{
+
+.pic6 {
   position: absolute;
   margin: auto;
   /*border: 50%;*/
