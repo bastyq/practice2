@@ -5,7 +5,7 @@
 }
 
 .pic2 {
-  position: absolute;
+  position: fixed;
   top: 20px;
   right: 1120px;
 }
@@ -172,15 +172,15 @@ form {
 
 .header18 {
   position: absolute;
-  top: 950px;
-  left: 920px;
+  top: 1400px;
+  left: 650px;
 }
 
 address {
   display: inline;
   position: absolute;
-  top: 660px;
-  left: 920px;
+  top: 850px;
+  left: 50px;
   line-height: 150%;
 }
 
